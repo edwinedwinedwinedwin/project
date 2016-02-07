@@ -2,7 +2,7 @@
 //This creates the map with Singapore layer//
 var map = L.map('map', {
 			zoomControl:true, maxZoom:18, minZoom:10
-		}).fitBounds([[1.26086156334,103.664616962],[1.45365362608,104.002152049]]);
+		}).fitBounds([[1.1212205463686813,103.52073669433594],[1.548883579847398,103.98765563964844]]);
 		
 
 		var additional_attrib = 'created w. <a href="https://github.com/geolicious/qgis2leaf" target ="_blank">qgis2leaf</a> by <a href="http://www.geolicious.de" target ="_blank">Geolicious</a> & contributors<br>';
@@ -62,6 +62,8 @@ function doStyleDGPSubZone(feature) {
 			weight: '1.3',
 			fillColor: '#c7dcef',
 			opacity: '1.0',
+
+
 			fillOpacity: '1.0',
 		}
 	}
