@@ -215,7 +215,7 @@ feature_group.addLayer(exp_DGPSubZoneJSON);
 			return this._div;
 		};
 		title.update = function () {
-			this._div.innerHTML = '<h2>Analyzing...</h2>'
+			this._div.innerHTML = '<h2>Analysis of viral trends</h2>'
 		};
 		title.addTo(map);
 		var baseMaps = {
@@ -267,7 +267,7 @@ feature_group.addLayer(exp_DGPSubZoneJSON);
 				"MRT Link": exp_mrtlineJSON,
 				"MRT Stations": exp_TrainStationsJSON,
 				"Higher Risk Population": exp_DGPSubZoneJSON,
-				"Dengue": propotinateMapSubZone
+				"Dengue Clutter": propotinateMapSubZone
 				
 
 
